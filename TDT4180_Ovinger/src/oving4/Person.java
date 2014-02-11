@@ -9,6 +9,10 @@ public class Person {
 	private Gender gender;
 	private int height;
 	
+	public Person() {
+		
+	}
+	
 	public Person(String name){
 		this.name = name;
 	}

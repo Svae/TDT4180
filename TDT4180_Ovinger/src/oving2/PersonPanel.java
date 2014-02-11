@@ -148,7 +148,7 @@ public class PersonPanel extends JPanel implements PropertyChangeListener, Focus
 	}
 	
 	public static void main(String[] args){
-		Person person1 = new Person("Alexander");
+		Person person1 = new Person("Alexander","03.01.92", "al@d.com", Gender.male, 182);
 		final PersonPanel personPanel1 = new PersonPanel();
 		final PassivePersonPanel personPanel2 = new PassivePersonPanel();
 		personPanel1.setModel(person1);
